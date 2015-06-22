@@ -1,0 +1,25 @@
+{
+  "data":[
+    {
+      "name": "Ambar",
+      "img": "http://comercialotegui.com/imagenes/imagenesalta/cervezas/ambar33copa.jpg",
+      "details": "No details",
+      "provenance": "Spanish",
+      "vol": 4.5
+    },
+    {
+      "name": "Gulden Draak",
+      "img": "http://friendsandbeers.com.br/wp-content/uploads/2014/12/Gulden-Draak-2.jpg",
+      "details": "a dark Belgian beer with high alcohol by volume (10.5%), brewed by Brouwerij Van Steenberge in Ertvelde, East Flanders",
+      "provenance": "Belgium",
+      "vol": 10.5
+    },
+    {
+      "name": "Delirium Red",
+      "img": "https://winestyle.ru/product_images_new/c/deliriumred__77829_orig.jpeg",
+      "details": "Sweet and fruity, with a nice balance between sweet and sour. An excellent dessert beer.",
+      "provenance": "Belgium",
+      "vol": 8.5
+    }
+  ]
+}
