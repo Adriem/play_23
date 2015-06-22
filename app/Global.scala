@@ -18,8 +18,7 @@ object Global extends GlobalSettings{
       implicit rs =>
         if(Beers.list().isEmpty){
           Logger.info("Empty database - populating")
-          val beers = Json.parse(Source.fromFile(play.api.Play.getFile("/conf/data/beers.json")).map(_.toByte).toArray)
-//          Logger.info(beer.toString())
+          val beers = Json.parse(Source.fromURL(app.classloader.getResource("data/beers.json")).map(_.toByte).toArray)
           (beers \ "data").as[List[Beer]].foreach(beer => Beers.insert(beer))
         }
     }
