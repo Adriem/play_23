@@ -15,4 +15,4 @@ For further information about the console: [PlayConsole(Activator)](https://www.
 
 ### Running the app in production mode
 
-Unzip the [distribution zip](play_23-1.0-SNAPSHOT.zip) and run the script located in /bin/. The script gets extra dependencies(jars) from first parameter, after that, some activator's parameters can be used, i.e. to run the app in other port: `play_23.bat . -Dhttp.port=8080`
+Unzip the [distribution zip](play_23-1.0-SNAPSHOT.zip) and run the script located in /bin/. The script gets extra dependencies(jars) from its first parameter, then, some activator's parameters can be used, i.e. to run the app in other port: `play_23.bat . -Dhttp.port=8080`
